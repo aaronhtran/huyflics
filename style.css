@@ -276,8 +276,8 @@ footer {
 
 
 .photobox {
-    margin-top: 100px;
     display: block;
+    margin-top: 100px;
     height: 250px;
     width: 100vw;
     max-width: 1600px;
@@ -294,9 +294,9 @@ footer {
 }
 
 .textbox {
+    display: block;
     width: 60vw;
     height: auto;
-    display: block;
     position: relative;
     margin-left: auto;
     margin-right: auto;
@@ -371,11 +371,11 @@ footer {
 
 @media only screen and (max-width: 767px) {
     main {
-        height: 600vh;
+        height: 580vh;
         width: 100vw;
     }
     footer {
-        top: 690vh;
+        top: 548vh;
     }
     .navcontainer {
         margin-right: 0;
@@ -405,7 +405,7 @@ footer {
     }
 
     .gallerymain {
-        height: 180vh;
+        height: 130vh;
         width: 100vw;
         top: 100px;
         text-align: center;
@@ -442,11 +442,35 @@ footer {
         text-align: center;
     }
     .galleryfooter {
-        top: 142vh;
+        top: 112vh;
     }
 
     .aboutfooter {
         top: 970px;
+    }
+
+    .boxbox {
+        width: 100px;
+        height: auto;
+    }
+
+    .boxbox > img {
+        width: 100vw;
+        height: auto;
+        position: relative;
+    }
+
+    .aboutmain {
+        width: 100vw;
+        height: 240vh;
+        text-align: center;
+    }
+    .photobox {
+        position: relative;
+    }
+
+    .aboutitle {
+        position: relative;
     }
 
 
