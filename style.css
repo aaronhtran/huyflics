@@ -476,7 +476,8 @@ footer {
     }
 
     .boxbox {
-        width: 100px;
+        /* border: 1px red solid; */
+        width: fit-content;
         height: auto;
     }
 
@@ -484,6 +485,7 @@ footer {
         width: 100vw;
         height: auto;
         position: relative;
+        
     }
 
     .aboutmain {
