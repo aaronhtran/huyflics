@@ -376,6 +376,7 @@ footer {
     }
     footer {
         top: 700vh;
+        position: relative;
     }
     .navcontainer {
         margin-right: 0;
@@ -443,10 +444,12 @@ footer {
     }
     .galleryfooter {
         top: 150vh;
+        position: relative;
     }
 
     .aboutfooter {
         top: 970px;
+        position: relative;
     }
 
     .boxbox {
