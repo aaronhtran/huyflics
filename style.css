@@ -477,6 +477,7 @@ footer {
 
     .boxbox {
         /* border: 1px red solid; */
+        margin-top: 0;
         width: fit-content;
         height: auto;
     }
