@@ -62,11 +62,12 @@ body {
     }
 
 main {
+    /* border: 1px red dashed; */
     background-color: rgb(0, 0, 0);
     position: absolute;
     width: 100vw;
         max-width: 1600px;
-    height: 8300px;
+    height: 7700px;
 }
 .contain {
     display: flex;
@@ -74,12 +75,12 @@ main {
 }
 
 .main {
+/* border: 1px solid blue; */
 position: relative;
 width: 100vw;
 max-width: 1600px;
 height: auto;
 display: block;
-/* border: red 1px solid; */
 }
 
     .photo1 {
@@ -184,14 +185,15 @@ display: block;
     }
 
 footer {
+    /* border: 1px gold solid; */
     position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80vw;
-    height: 400px;
+    height: 300px;
+    margin-top: 7700px;
     background-color: rgb(0, 0, 0);
-    top: 1015vh;
     border-top: #333333 solid 1px;
 }
 
@@ -203,28 +205,9 @@ footer {
 
 /* ======================== */
 
-.mainbox {
-    width: 100vw;
-        max-width: 1600px;
-    height: fit-content;
-    margin-top: 100px;
-    position: relative;
-    background-color: rgb(0, 0, 0);
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
-    gap: 15px;
-}
 
 
 
-.gridphoto {
-    left: 0;
-    width: 450px;
-    max-width: 500px;
-    height: auto;
-    max-height: 400px;
-}
 
 .mainbox > div:hover {
     /* outer glow around photo */
@@ -239,7 +222,7 @@ footer {
     margin-right: auto;
     padding-top: 10vh;
     padding-bottom: 5vh;
-    border: 1xp red solid;
+    /* border: 1xp red solid; */
 }
 
 .icon {
@@ -265,35 +248,39 @@ footer {
 /* ====================================== */
 
 .aboutmain {
+    /* border: 1px red dashed; */
     background-color: rgb(0, 0, 0);
-    position: absolute;
+    position: relative;
     width: 100vw;
     max-width: 1600px;
-    height: 100vh;
+    height: auto;
     display: block;
-
+    top: 100px;
 }
 
 
 .photobox {
+    /* border: 1px red solid; */
     display: block;
-    margin-top: 100px;
-    height: 250px;
     width: 100vw;
     max-width: 1600px;
+    height: fit-content;
     position: relative;
+    padding-bottom: 0;
 }
 .aboutphoto {
-    /* margin-top: 100px; */
+    /* border: 1px pink solid; */
     display: block;
     height: 250px;
     width: auto;
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 0;
 }
 
 .textbox {
+    /* border: 1px solid blue; */
     display: block;
     width: 60vw;
     height: auto;
@@ -303,11 +290,13 @@ footer {
 }
 
 .aboutitle {
+    /* border: 1px solid green; */
     text-align: center;
     font-size: 2rem;
     color: white;
     font-family: 'Maven Pro', sans-serif; 
     letter-spacing: 0.1rem;
+    position: relative;
 }
 .aboutext {
     text-align: center;
@@ -316,38 +305,63 @@ footer {
     font-family: 'Maven Pro', sans-serif; 
     letter-spacing: 0.1rem;
 }
-
-
 .aboutfooter {
+    /* border: 1px gold solid; */
     position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80vw;
-    height: 400px;
+    height: 300px;
+    margin-top: 150px;
     background-color: rgb(0, 0, 0);
-    margin-top: 970px;
     border-top: #333333 solid 1px;
 }
 
+/* ================================== */
+.mainbox {
+    /* border: 1px purple solid; */
+    width: 100vw;
+        max-width: 1600px;
+    height: fit-content;
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    gap: 15px;
+}
+
+.gridphoto {
+    /* border: 1px green solid; */
+    left: 0;
+    width: 450px;
+    max-width: 500px;
+    height: auto;
+    max-height: 400px;
+}
+
 .galleryfooter {
+    /* border: 1px gold solid; */
     position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 80vw;
-    height: 400px;
+    height: 300px;
+    margin-top: 150px;
     background-color: rgb(0, 0, 0);
-    top: 75vh;
     border-top: #333333 solid 1px;
 }
 
 .gallerymain {
+    /* border: 1px solid red; */
     background-color: rgb(0, 0, 0);
-    position: absolute;
+    position: relative;
+    top: 100px;
     width: 100vw;
     max-width: 1600px;
-    height: 125vh;
+    height: auto;
 }
 
 .boxbox {
@@ -371,12 +385,15 @@ footer {
 
 @media only screen and (max-width: 767px) {
     main {
-        height: 580vh;
+        /* border: 1px blue solid; */
+        position: relative;
         width: 100vw;
+        height: fit-content;
     }
     footer {
-        top: 700vh;
+        /* border: 1px gold solid; */
         position: relative;
+        margin-top: 100px;
     }
     .navcontainer {
         margin-right: 0;
@@ -391,9 +408,12 @@ footer {
     } 
 
     .main {
+        /* border: 1px dashed red; */
         display: block;
         top: 100px;
         text-align: center;
+        height: fit-content;
+        padding-bottom: 50px;
     }
     .please {
         width: 300px;
@@ -406,6 +426,7 @@ footer {
     }
 
     .gallerymain {
+        /* border: 1px red solid; */
         height: 130vh;
         width: 100vw;
         top: 100px;
@@ -414,8 +435,9 @@ footer {
     }
 
     .mainbox {
+        /* border: 1px solid red; */
         width: 100vw;
-        top: -200px;
+        top: -100px;
         height: auto;
         position: absolute;
     }
@@ -443,13 +465,14 @@ footer {
         text-align: center;
     }
     .galleryfooter {
-        top: 150vh;
+        /* border: 1px gold solid; */
         position: relative;
+        margin-top: 75px;
     }
 
     .aboutfooter {
-        top: 970px;
         position: relative;
+        top: 100px;
     }
 
     .boxbox {
